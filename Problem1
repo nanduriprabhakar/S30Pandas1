@@ -1,0 +1,6 @@
+import pandas as pd
+
+list = [['hello', 0], ['world', 0]]
+
+# creating pandas dataframe from 2D lists
+df = pd.DataFrame(list, columns = ['col1', 'col2'])
